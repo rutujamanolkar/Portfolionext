@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color:pink ;
+    opacity: 0.9;
+
+    
+}
+nav label{
+    background-color: black;
+ 
+    padding: 10PX;
+    border-radius: 5px;
+    font-size: 20px;
+}
+nav label a{
+    text-decoration: none;
+       color: yellow;
+      
+}
+nav label:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+p{
+    margin: 200px;
+    font-size: 80px;
+    font-family:fantasy;
+    background: linear-gradient(pink,rgb(216, 41, 178) );
+     border-radius: 5px;
+     border-top: solid black 10px;
+}
+p:hover{
+    opacity: 0.6;
+    transition: 1s;
+    cursor: pointer;
+    color: yellow;
+}
+.container{
+    border: 50px solid black ;
+    margin: 20px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.container-inside{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 80px;
+    margin: 90px;
+    font-size: 20px;
+}
+.container-inside:hover{
+    cursor: pointer;
+    transition: 0.7s;
+}
+.btn{
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    opacity: 0.3;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+.diploma{
+ max-width: 900px;
+
+}
+
+table{
+    margin: 110px;
+    padding: 40px;
+    margin-top: 0;
+
+}
+table tr th{
+    border: 10px solid black;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+table tr td{
+    border: 7px solid black;
+    padding: 20px;
+    color: black;
+}
+.logo{
+    max-width: 100px;
+}
